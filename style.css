@@ -87,30 +87,8 @@ nav a:hover {
     from { transform: translateY(0); opacity: 1; }
     to { transform: translateY(-120vh); opacity: 0; }
 }
-/* 🔥 STORY PAGE HARD RESET */
-.story-page {
-    height: auto !important;
-    min-height: 100vh;
-    overflow-y: auto !important;
-    overflow-x: hidden;
-    display: block !important;
-    padding: 16px;
-}
 
-/* Story container reset */
-.story-page * {
-    height: auto !important;
-    max-height: none !important;
-}
 
-/* Actual story content */
-.story-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 24px 16px 80px;
-    line-height: 1.8;
-    font-size: 1.05rem;
-}
 
 
 
